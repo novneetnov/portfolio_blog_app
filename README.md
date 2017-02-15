@@ -1,24 +1,12 @@
-# README
+# Portfolio Blog Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a Portfolio cum blog application built with Ruby on Rails.
+> The app can be extended as per requirements.
 
-Things you may want to cover:
+### Features
 
-* Ruby version
+- Real time updating for comments
+- Blog
+- Portfolio
+- Drag and Drop Interface
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
