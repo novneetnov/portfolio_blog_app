@@ -1,8 +1,8 @@
 class Portfolio < ApplicationRecord
 	include Placeholder
 	validates :title, :body, :main_image, :thumb_image, presence: true
-
 	has_many :technologies
+	accepts_nested_attributes_for :technologies, reject_if: lambda { |attr| attr['name'].blank? }
 
 	def self.angular
 		where(subtitle: 'Angular')
