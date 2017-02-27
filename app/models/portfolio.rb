@@ -2,6 +2,8 @@ class Portfolio < ApplicationRecord
 	include Placeholder
 	validates :title, :body, :main_image, :thumb_image, presence: true
 
+	has_many :technologies
+
 	def self.angular
 		where(subtitle: 'Angular')
 	end
