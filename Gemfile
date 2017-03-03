@@ -15,6 +15,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'friendly_id'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug', platform: :mri
