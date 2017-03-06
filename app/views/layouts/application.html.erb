@@ -12,7 +12,7 @@
 		<p class="notice"><%= notice %></p>
 		<p class="alert"><%= alert %></p>
 
-		<% if user_signed_in? %>
+		<% if current_user.is_a? User %>
 			<%= link_to "Logout", destroy_user_session_path, method: :delete %>
 		<% else %>
 			<%= link_to "Signup", new_user_registration_path %> | 
