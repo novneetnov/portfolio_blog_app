@@ -16,6 +16,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'friendly_id'
 gem 'devise'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 
 group :development, :test do
   gem 'byebug', platform: :mri
