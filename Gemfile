@@ -17,7 +17,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'friendly_id'
 gem 'devise'
 gem 'bootstrap', '~> 4.0.0.alpha6'
-gem 'techienov_copyright_tool', git: 'https://github.com/novneetnov/techienov-copyright-tool'
+gem 'techienov_copyright_tool', '~> 0.1.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
