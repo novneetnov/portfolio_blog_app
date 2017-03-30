@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/novneetnov/techienov-copyright-tool
+  revision: 7b5488ef612beeb124eac8eb83fe3a73236da64b
+  specs:
+    techienov_copyright_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -187,6 +193,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
+  techienov_copyright_tool!
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)

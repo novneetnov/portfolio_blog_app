@@ -15,4 +15,8 @@ module ApplicationHelper
 			content_tag(:p, greeting)
 		end
 	end
+
+	def copyright_generator
+		TechienovCopyrightTool::Renderer.copyright "Techienov", "All rights reserved"
+	end
 end
