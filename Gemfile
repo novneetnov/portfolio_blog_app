@@ -18,6 +18,7 @@ gem 'friendly_id'
 gem 'devise'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'techienov_copyright_tool', '~> 0.1.0'
+gem 'petergate', '~> 1.7'
 
 group :development, :test do
   gem 'byebug', platform: :mri
